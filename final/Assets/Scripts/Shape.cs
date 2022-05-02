@@ -5,6 +5,11 @@ using UnityEngine;
 // INHERITANCE
 public class Shape : MonoBehaviour
 {
+    // ENCAPSULATION
+    public string Name;
+    public string Color;
+
+
     // POLYMORPHISM
     public virtual void MakeSound()
     {

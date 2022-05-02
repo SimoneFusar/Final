@@ -248,6 +248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63dcc8bee84603049b79b6d45cf2ef2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Name: Capsule
+  Color: Green
 --- !u!136 &860136756
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -440,6 +442,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cfed57d8235a3b4d9b22e206c596765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Name: Sphere
+  Color: Blue
 --- !u!135 &1005764718
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -548,6 +552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2719c2b107e59d4a9d33d2cf561e2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Name: Cube
+  Color: Red
 --- !u!65 &1855032570
 BoxCollider:
   m_ObjectHideFlags: 0

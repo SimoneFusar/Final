@@ -5,5 +5,9 @@ using UnityEngine;
 // INHERITANCE
 public class Cube : Shape {
 
-    
+    // POLYMORPHISM
+    public override void MakeSound()
+    {
+        Debug.Log("Cube");
+    }
 }

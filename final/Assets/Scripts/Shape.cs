@@ -5,16 +5,17 @@ using UnityEngine;
 // INHERITANCE
 public class Shape : MonoBehaviour
 {
-    
-
-
-    // Start is called before the first frame update
-    void Start()
+    // POLYMORPHISM
+    public virtual void MakeSound()
     {
-        
+        Debug.Log("No sound Detected");
     }
 
-    // Update is called once per frame
+    void Start()
+    {
+        MakeSound();
+    }
+
     void Update()
     {
         
